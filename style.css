@@ -19,6 +19,8 @@ body{
    height: 400px;
    background-color: rgb(46, 109, 181);
    color: white;
+
+   margin-top: 150px;
 }
 
 
@@ -30,14 +32,26 @@ body{
     font-size: 18px;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
 }
 
 #btn{
     background-color: blueviolet;
+    color: white;
 }
-
 #ctn{
     background-color: aqua;
+    color: black;
+}
+
+#btn:hover{
+    background-color: rgb(152, 69, 228);
+    color: white;
+}
+
+#ctn:hover{
+    background-color: rgb(248, 6, 83);
+    color: black;
 }
 
 #display{
