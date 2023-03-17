@@ -17,3 +17,11 @@ function save(){
 
 }
 
+function saf(){
+    console.log("button clicked");
+    
+    res.textContent = "Previous entries :" + "";
+    show.textContent = 0;
+    count = 0;
+
+}
